@@ -285,7 +285,6 @@ export class LivePrices extends React.Component<
           width={this.props.isMobile ? "100%" : undefined}
           color="white.80"
           fontFamily="Favorit Mono"
-          lineHeight="1"
           opacity={price == 0 ? "20%" : "100%"}
           _hover={{ textDecoration: "none" }}
           transform={
